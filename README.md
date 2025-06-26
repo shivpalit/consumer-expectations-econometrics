@@ -1,12 +1,24 @@
-# Econometrics_Project
+# Consumer Expectations Econometrics Analysis
 
-This project uses consumer survey data from the University of Michigan Surveys of Consumers to examine the effect of personal and non-personal variables on consumers’ expectations for future economic performance. The years 2011 to 2019 have been chosen for this analysis. Results indicate that both personal and non-personal variables have statistically significant explanatory power for consumer economic expectations. Expectation of personal finances for the following year has the strongest influence of the personal variables. It is also found that the marginal influences of some variables change depending on whether the change in the S&P500 index price is positive or negative.
+## Project Overview
+This project, developed as the final project for the Econometrics course in the Economics major at Davidson College, analyzes consumer expectations and their economic implications using econometric methods. Using consumer survey data from the University of Michigan Surveys of Consumers (2011-2019), the study examines how personal and non-personal variables affect consumers' expectations for future economic performance.
 
-Analysis is conducted using SAS and data is prepared using Jupiter Notebook
+## Key Findings
+The analysis revealed that both personal and non-personal variables have statistically significant explanatory power for consumer economic expectations. Notably, expectation of personal finances for the following year showed the strongest influence among personal variables. Additionally, the research found that the marginal influences of some variables fluctuate based on whether the S&P500 index price change is positive or negative.
 
-In order to execute the .ipynb and .sas files, download all .csv files from this repository and save them in the same location as the .ipynb before running. 
+*For the complete analysis and methodology, please refer to the full project paper: `consumer_expectations_paper.pdf`*
 
-To further understand the data preparation and data analysis conducted in this project, please refer to the paper "Econometric Analysis of the Determinants of Consumer Expectations".
+## Technical Stack
+- **SAS** - Primary statistical analysis
+- **Python** - Data preparation and analysis
+- **Jupyter Notebooks** - Interactive data exploration
+- **Pandas** - Data manipulation and preprocessing
 
-Thank you and I hope you enjoy my project!
+## Repository Structure
+- `scripts/`
+  - `data_preparation.ipynb` - Jupyter notebook for data preprocessing
+  - `consumer_expectations.sas` - Main SAS analysis script
 
+## Running the Analysis
+1. Execute the data preparation notebook to process the raw data
+2. Run the SAS script for statistical analysis and modeling
